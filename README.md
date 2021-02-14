@@ -20,3 +20,19 @@ Optional: Git (for fetching the sources)
 * Selenium
 * Time library
 * private_keys library (You have to add the folder yourself and add your keys)
+
+
+```python
+
+class private_keys:
+      def __int__(self, username, pass):
+          self._username = username
+          self._pass = pass
+    
+    def get_Private_Username(self):
+        return self._username
+    def get_Private_Password(self):
+        return self._pass
+   
+      
+    
